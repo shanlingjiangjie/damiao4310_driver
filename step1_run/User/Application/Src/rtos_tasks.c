@@ -63,7 +63,7 @@
      dm_save_zero(&motor_4310);
      while(1)
      {
-         dm_mit_ctrl(&motor_4310,6.28,3,0,0,0);
+         dm_mit_ctrl(&motor_4310,0,5,0,0,0);
          vTaskDelay(1);
      }   
  }

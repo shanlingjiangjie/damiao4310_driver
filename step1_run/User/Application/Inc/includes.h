@@ -13,11 +13,12 @@
 extern "C" {
 #endif /* __cplusplus */
 
+#define PI 3.1415926
+
 #include <bsp.h>
 
 #include "FreeRTOS.h"
 #include "task.h"
-
 
 void freertos_start(void);
 
